@@ -7,12 +7,13 @@
 <meta http-equiv="Content-Type" content="text/html" />
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <meta name="MobileOptimized" content="width">
+<script src="https://libs.baidu.com/jquery/2.0.0/jquery.js"></script>
 <link rel="stylesheet" href="jemdoc.css" type="text/css" />
 <link rel="stylesheet" href="jemdocmobile.css" type="text/css" />
 <title>Welcome to My Homepage!</title>
 </head>
-<body onload="browserRedirect()">
-<script type="text/javascript">
+<body>
+ <script type="text/javascript">
   /*append style*/
     var includeLinkStyle = function (url) {
     var link = document.createElement('link');
@@ -41,6 +42,9 @@
       document.styleSheets[1].disabled= true
     }
   };
+  $(function(){
+    browserRedirect();
+  })
 </script>
 <div id="centerdiv">
 <table summary="Table for page layout." id="tlayout">
@@ -173,7 +177,7 @@
 </p>
 <div id="footer">
 <div id="footer-text">
-Page generated 2022-05-26 14:33:22 UTC+8, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
+Page generated 2022-05-26 14:55:34 UTC+8, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
 </div>
 </div>
 </td>

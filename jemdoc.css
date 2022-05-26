@@ -392,3 +392,11 @@ table.imgtable, table.imgtable td {
   color: LightGray;
   font-size: 50%;
 }
+
+[name="totop"]{          
+    color: #FF8C00;
+    font-size: 120%;  
+    text-decoration:underline;  
+    position:relative; 
+    left:45%;     
+}

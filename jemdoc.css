@@ -1,14 +1,8 @@
 /* Modified css file for jemdoc by An-Da Li. */
 
 
-#centerdiv{
-                background: white;
-	font-family: Georgia, serif;
-	padding-bottom: 8px;
-	margin-top: -10px;	
-	margin-left: 160px;
-          
-           
+#centerdiv{          
+                 
 }
 
 table#tlayout {
@@ -18,10 +12,13 @@ table#tlayout {
 }
 
 body {
-	
-                 margin: 0px auto;
-                 width:60%;
-
+	background: white;
+	font-family: Georgia, serif;
+	padding-bottom: 8px;
+	margin-top: -10px;	
+	width:50%; 
+	margin-left: 160px;
+	margin: auto;	       
 }
 
 #layout-menu {

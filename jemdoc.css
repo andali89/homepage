@@ -1,5 +1,16 @@
 /* Modified css file for jemdoc by An-Da Li. */
 
+
+#centerdiv{
+                background: white;
+	font-family: Georgia, serif;
+	padding-bottom: 8px;
+	margin-top: -10px;	
+	margin-left: 160px;
+          
+           
+}
+
 table#tlayout {
 	border: none;
 	border-collapse: separate;
@@ -7,12 +18,10 @@ table#tlayout {
 }
 
 body {
-	background: white;
-	font-family: Georgia, serif;
-	padding-bottom: 8px;
-	margin: 0 auto;
-	border: 1px solid #dddddd;	
-	width: 60%;
+	
+                 margin: 0px auto;
+                 width:60%;
+
 }
 
 #layout-menu {
@@ -25,7 +34,7 @@ body {
 	padding-right: 8px;
 	font-size: 1.0em;
 	width: auto;
-	height:100%;
+	height: 100%;
 	white-space: nowrap;
 	text-align: left;
 	vertical-align: top;
@@ -40,12 +49,11 @@ body {
                 
 }
 
-#layout-content {                
-                margin-left: 200em;       
+#layout-content {              
+                border: none;
 	padding-top: 0.0em;
 	padding-left: 1.0em;
-	padding-right: 1.0em;
-	border: none;
+	padding-right: 1.0em;	
 	background: white;
 	text-align: left;
 	vertical-align: top;

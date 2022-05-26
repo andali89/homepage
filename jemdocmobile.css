@@ -2,12 +2,7 @@
 
 
 #centerdiv{
-                background: white;
-	font-family: Georgia, serif;
-	padding-bottom: 8px;
-	margin-top: -10px;	
-	margin-left: 160px;
-          
+                        
            
 }
 
@@ -18,9 +13,11 @@ table#tlayout {
 }
 
 body {
-	
-               
-
+	background: white;
+	font-family: Georgia, serif;
+	padding-bottom: 8px;
+	margin-top: -10px;	
+	margin-left: 160px; 
 }
 
 #layout-menu {

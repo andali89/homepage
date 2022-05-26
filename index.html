@@ -7,6 +7,8 @@
 <meta http-equiv="Content-Type" content="text/html" />
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <meta name="MobileOptimized" content="width">
+<link rel="stylesheet" href="jemdoc.css" type="text/css" />
+<link rel="stylesheet" href="jemdocmobile.css" type="text/css" />
 <title>Welcome to My Homepage!</title>
 </head>
 <body onload="browserRedirect()">
@@ -33,10 +35,10 @@
     /* load css */
     if (bIsIpad || bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsCE || bIsWM) {
       console.log("phone");
-      includeLinkStyle("jemdocmobile.css");
+      document.styleSheets[0].disabled= true
     } else {
       console.log("pc");
-      includeLinkStyle("jemdoc.css");
+      document.styleSheets[1].disabled= true
     }
   };
 </script>
@@ -171,7 +173,7 @@
 </p>
 <div id="footer">
 <div id="footer-text">
-Page generated 2022-05-26 14:00:10 UTC+8, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
+Page generated 2022-05-26 14:33:22 UTC+8, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
 </div>
 </div>
 </td>

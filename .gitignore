@@ -2,4 +2,5 @@
 *.py
 *.jemdoc
 *.jemdocbak
+*.conf
 MENU

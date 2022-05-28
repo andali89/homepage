@@ -13,11 +13,12 @@ table#tlayout {
 
 body {
 	background: white;
-	font-family: Georgia, serif;
+	font-family: Georgia, serif，微软雅黑;
 	padding-bottom: 8px;
 	margin-top: -10px;	
 	max-width:960px; 	
-	margin: auto;                     
+	margin: auto;        
+          
 }
 
 #layout-menu {
@@ -54,6 +55,7 @@ body {
 	text-align: left;
 	vertical-align: top;
                 margin-left:
+
 }
 
 #layout-menu a {
@@ -162,7 +164,7 @@ h3 {
 }
 
 p {
-	margin-top: 0.0em;
+	margin-top: 0.5em;
 	margin-bottom: 0.8em;
 	padding: 0;
 	line-height: 1.3;

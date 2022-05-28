@@ -177,14 +177,18 @@ pre {
 
 div#footer {
 	font-size: small;
-	border-top: 1px solid #c0c0c0;
+	border-top: 0px solid #c0c0c0;
 	padding-top: 0.1em;
 	margin-top: 4.0em;
 	color: #c0c0c0;
+	position:absolute;
+	left: 47%;	
 }
 
 div#footer a {
 	color: #80a0b0;
+
+
 }
 
 div#footer-text {
@@ -400,5 +404,5 @@ table.imgtable, table.imgtable td {
     font-size: 120%;  
     text-decoration:underline;  
     position:relative; 
-    left:45%;     
+    left:42%;     
 }

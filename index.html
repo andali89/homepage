@@ -11,9 +11,9 @@
 <link rel="stylesheet" href="jemdoc.css" type="text/css" />
 <link rel="stylesheet" href="jemdocmobile.css" type="text/css" />
 <title>Homepage - An-Da Li | Tianjin University of Commerce</title>
-</head>
-<body>
- <script type="text/javascript">
+  </head>
+  <body>
+   <script type="text/javascript">
   /*append style*/
     var includeLinkStyle = function (url) {
     var link = document.createElement('link');
@@ -45,7 +45,19 @@
   $(function(){
     browserRedirect();
   })
+  $(document).on("click", "#back-to-top",function () {
+    $("html,body").animate({ scrollTop: 0 }, 200);
+  });
+  $(document).scroll(function () {
+    var scroll_top = $(document).scrollTop();
+    if (scroll_top > 300) {
+        $("#back-to-top").show();
+    } else {
+        $("#back-to-top").hide();
+    }
+  });
 </script>
+<div id="back-to-top" style="display: none;"><svg viewBox="0 0 24 24"><path d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path></svg></div>
 <div id="centerdiv">
 <table summary="Table for page layout." id="tlayout">
 <tr valign="top">
@@ -106,7 +118,7 @@
 </p>
 </li>
 </ul>
-<h2><a name="rpub">Publications</a><a class="top" href="#tlayout"> [back to top]</a></h2>
+<h2><a name="rpub">Publications</a></h2>
 <div class="infoblock">
 <div class="blockcontent">
 <p>* denotes the corresponding author
@@ -190,26 +202,22 @@
 </p>
 </li>
 </ol>
-<h2><a name="grants">Grants</a><a class="top" href="#tlayout"> [back to top]</a></h2>
+<h2><a name="grants">Grants</a></h2>
 <ul>
 <li><p>2022-2024: Key Quality Factor Identification and Online Quality Prediction for Complex Manufacuring Processes Based on Machine Learning Approaches. National Natural Science Foundation of China (NSFC). Grant: 300,000 CNY. (<b>PI</b>)
 </p>
 </li>
 <li><p>2019-2021: Key Quality Characteristic Identification for Multi-stage Manufacturing Processes of Complex Products. Humanities and Social Sciences Youth Fund of Ministry of Education of China. Grant: 80,000 CNY. (<b>PI</b>)
 
-<br />
+
+
+
 </p>
 </li>
 </ul>
-<h2></h2>
-<p><br />
-<a class="totop"  href="#tlayout">Page top</a> 
-
-
-</p>
 <div id="footer">
 <div id="footer-text">
-Updated at 2022-05-28 23:29:49 UTC+8.
+Updated at 2022-05-29 12:33:42 UTC+8.
 </div>
 </div>
 </td>

@@ -411,10 +411,10 @@ table.imgtable, table.imgtable td {
 
 #back-to-top svg {
     display: block;
-    fill: currentColor;
-    height: 17px;
-    margin: 12px auto 0;
-    width: 17px;
+    fill: #483D8B;
+    height: 25px;
+    margin: 8px auto 0;
+    width: 25px;
 }
 
 #back-to-top {

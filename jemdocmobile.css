@@ -14,7 +14,7 @@ table#tlayout {
 
 body {
 	background: white;
-	font-family: Georgia, serif，微软雅黑;
+	font-family: system-ui, segoe ui, Roboto, Helvetica, Arial, sans-serif;
 	padding-bottom: 8px;
 	margin-top: -10px;	
 	margin-left: 160px; 

@@ -13,7 +13,7 @@ table#tlayout {
 
 body {
 	background: white;
-	font-family: system-ui, segoe ui, Roboto, Helvetica, Arial, sans-serif;
+	font-family: Inter Var','Inter',Roboto,Arial,sans-serif,Consolas,Monaco,monospace,'Microsoft YaHei'
 	padding-bottom: 8px;
 	margin-top: -10px;	
 	max-width:960px; 	

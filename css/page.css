@@ -1,47 +1,162 @@
+/* Modern page-specific styling */
+
 #fwtitle {
 	margin: 0;
 	padding: 0;
+	background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+	border-radius: 8px 8px 0 0;
+	box-shadow: 0 4px 20px rgba(0,0,0,0.1);
 }
 
 #fwtitle div#toptitle {
-	background-color: #303050;
-	padding: 1em;
+	background: transparent;
+	padding: 3em 2em 2em 2em;
 	margin: 0;
 	border: none;
+	color: #ffffff;
 }
 
 div#toptitle h1 {
-	margin-top: 0.1em;
+	margin-top: 0;
+	font-size: 2.5em;
+	font-weight: 700;
+	text-shadow: 0 2px 10px rgba(0,0,0,0.2);
+	letter-spacing: -1px;
 }
 
 #fwtitle div#toptitle h1, div#subtitle, div#subtitle a {
-	color: white;
-	font-weight: normal;
+	color: #ffffff;
+	font-weight: 400;
 	text-align: left;
+}
+
+div#subtitle {
+	font-size: 1.2em;
+	opacity: 0.9;
+	margin-top: 0.5em;
+}
+
+div#subtitle a {
+	color: #ffffff;
+	text-decoration: none;
+	border-bottom: 1px solid rgba(255,255,255,0.4);
+	transition: all 0.3s ease;
+}
+
+div#subtitle a:hover {
+	border-bottom: 2px solid #ffffff;
 }
 
 #layout-menu {
 	border: none;
-	border-right: 1px dashed #aaaaaa;
+	border-right: 2px solid #ecf0f1;
 	margin: 0;
-	padding-top: 0;
+	padding: 2em 1.5em;
+	background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+	min-height: calc(100vh - 200px);
 }
 
 div.menu-category {
-	border-bottom: none;
-	padding-bottom: 0;
+	border-bottom: 2px solid rgba(255,255,255,0.3);
+	padding-bottom: 0.5em;
+	margin-bottom: 1em;
+	color: #ffffff;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 0.85em;
+}
+
+div.menu-item a {
+	color: rgba(255,255,255,0.9);
+	padding: 0.8em 0;
+	display: block;
+	border-radius: 6px;
+	transition: all 0.3s ease;
+	font-weight: 500;
+}
+
+div.menu-item a:hover {
+	background: rgba(255,255,255,0.1);
+	color: #ffffff;
+	transform: translateX(8px);
+	padding-left: 1em;
 }
 
 #layout-content {
 	border: none;
-	padding: 8px;
-	padding-left: 16px;
-	padding-right: 16px;
-	padding-bottom: 0;
+	padding: 3em;
 	margin: 0;
+	background: #ffffff;
+	border-radius: 0 0 8px 8px;
+	min-height: calc(100vh - 200px);
+	box-shadow: 0 -2px 20px rgba(0,0,0,0.05);
 }
 
 body {
 	padding: 0;
-	padding-bottom: 8px;
+	background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+	background-attachment: fixed;
+	min-height: 100vh;
+}
+
+/* Contact section styling */
+.contact-info {
+	background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+	padding: 2em;
+	border-radius: 12px;
+	border-left: 4px solid #3498db;
+	margin: 2em 0;
+}
+
+/* News section styling */
+.news-item {
+	padding: 1em 0;
+	border-bottom: 1px solid #ecf0f1;
+}
+
+.news-item:last-child {
+	border-bottom: none;
+}
+
+/* Research interests styling */
+.research-list li {
+	background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+	margin: 0.5em 0;
+	padding: 1em 1.5em;
+	border-radius: 8px;
+	border-left: 4px solid #3498db;
+	box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+/* Profile image styling */
+table.imgtable img {
+	border-radius: 12px;
+	box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+	transition: all 0.3s ease;
+}
+
+table.imgtable img:hover {
+	transform: scale(1.05);
+	box-shadow: 0 12px 35px rgba(0,0,0,0.2);
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+	#fwtitle div#toptitle {
+		padding: 2em 1.5em 1.5em 1.5em;
+	}
+	
+	div#toptitle h1 {
+		font-size: 2em;
+	}
+	
+	#layout-content {
+		padding: 2em 1.5em;
+	}
+	
+	#layout-menu {
+		padding: 1.5em;
+		min-height: auto;
+	}
 }

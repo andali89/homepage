@@ -138,8 +138,8 @@ div.menu-item {
 }
 
 div#toptitle {
-	padding-bottom: 0.8em;
-	margin-bottom: 1.2em;
+	padding-bottom: 0.3em;
+	margin-bottom: 1.5em;
 	border-bottom: 2px solid #3498db;
 	background: none;
 	color: #2c3e50;
@@ -201,7 +201,7 @@ h1 {
 
 h2 {
 	font-size: 1.3em;
-	margin-top: 2em;
+	margin-top: 1.4em;
 	color: #34495e;
 	position: relative;
 }
@@ -256,7 +256,7 @@ div#footer {
 	margin-top: 3em;
 	color: #95a5a6;
 	text-align: center;
-	background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+	background: #f8f9fa;
 	border-radius: 6px;
 	padding: 1.5em;
 }
@@ -377,13 +377,13 @@ div.blocktitle {
 
 div.blockcontent {
 	border: none;
-	padding: 1em;
+	padding: 1.0em;
 	background: #f8f9fa;
 	border-left: 3px solid #3498db;
 }
 
 div.infoblock > div.blockcontent {
-	background: linear-gradient(135deg, #fff9e6 0%, #f0f8ff 100%);
+	background: #f8f9fa;
 	border-left: 3px solid #f39c12;
 }
 
@@ -552,7 +552,7 @@ table {
 	border-radius: 6px;
 	overflow: hidden;
 	box-shadow: 0 3px 15px rgba(0,0,0,0.08);
-	margin: 1em 0;
+	margin: 0.5em 0;
 }
 
 td {
@@ -600,7 +600,7 @@ table.imgtable td {
 /* Publication list styling for mobile */
 ol li {
 	background: #ffffff;
-	padding: 1em;
+	padding: 1.0em;
 	margin-bottom: 1em;
 	border-radius: 6px;
 	box-shadow: 0 2px 10px rgba(0,0,0,0.08);
